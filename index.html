@@ -16,7 +16,7 @@
         <div class="center">
             <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
 
-            <input type="text">
+            <input type="text" placeholder="Hi, how are you?">
 
             <button>Google Search</button>
             <button>I'm Feeling Lucky</button>
@@ -90,6 +90,12 @@
         border-radius: 40px;
         box-shadow: rgba(85, 85, 85, 0.2) 1px 1px 1px, rgba(085, 85, 85, 0.2) -1px -1px 1px;
         margin: 20px;
+    }
+
+    .center ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      padding-left: 20px;
+      font-size: 15px;
+      color: pink;
     }
 
     .center button {
