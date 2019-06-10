@@ -3,7 +3,7 @@
 An attempt at copying Google's search page.
 Can be seen here https://769710510897.github.io/google-homepage/
 
-I did my best to avoid inspecting the original page and only copying by eye, although curiosity got the better of me so I did have a few looks.
+I did my best to avoid inspecting the original page and only copying by eye, although curiosity got the better of me so I did have a few looks. The lack of flexbox and grid is intentional.
 
 As of right now only tested in Chrome on a 13" laptop.
 
